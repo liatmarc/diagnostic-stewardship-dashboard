@@ -1,0 +1,601 @@
+patient_id,visit_id,visit_date,department,provider,test_ordered,test_result,diagnosis_group,age,action_taken
+4513,1,2025-06-17,Pulmonology,Dr. Smith,MRI Brain,Normal,Neuro,11,Yes
+3029,2,2025-07-08,Gastroenterology,Dr. Lee,Urinalysis,Missing,Cardiac,13,No
+4927,3,2025-05-26,Neurology,Dr. Gomez,CRP,Normal,Cardiac,16,No
+2894,4,2025-07-07,Pulmonology,Dr. Lee,Throat Culture,Abnormal,Cardiac,17,No
+1761,5,2025-07-23,Pulmonology,Dr. Lee,CRP,Normal,Neuro,13,No
+1248,6,2025-05-24,Infectious Disease,Dr. Smith,Chest X-ray,Normal,Respiratory,15,No
+1443,7,2025-08-01,Pulmonology,Dr. Patel,Urinalysis,Normal,Respiratory,5,No
+3648,8,2025-06-27,Gastroenterology,Dr. Smith,CBC,Normal,Infectious,4,No
+4414,9,2025-05-15,Pulmonology,Dr. Patel,CRP,Normal,GI,17,No
+1155,10,2025-05-24,Infectious Disease,Dr. Lee,CBC,Normal,Cardiac,7,No
+4458,11,2025-07-12,Cardiology,Dr. Lee,Urinalysis,Normal,Neuro,8,No
+1818,12,2025-07-29,Neurology,Dr. Lee,CBC,Normal,Infectious,14,Yes
+1402,13,2025-06-12,Neurology,Dr. Smith,Chest X-ray,Abnormal,GI,5,Yes
+2899,14,2025-07-30,Pulmonology,Dr. Gomez,MRI Brain,Abnormal,Respiratory,7,Yes
+3533,15,2025-05-09,Gastroenterology,Dr. Lee,MRI Brain,Abnormal,Cardiac,7,No
+1529,16,2025-06-09,Gastroenterology,Dr. Gomez,Throat Culture,Normal,Neuro,5,Yes
+1052,17,2025-07-08,Gastroenterology,Dr. Lee,Throat Culture,Abnormal,Respiratory,5,Yes
+4537,18,2025-06-18,Gastroenterology,Dr. Lee,CRP,Normal,Infectious,16,No
+2540,19,2025-05-08,Cardiology,Dr. Patel,CRP,Normal,Respiratory,1,No
+4673,20,2025-06-14,Neurology,Dr. Lee,Urinalysis,Normal,Neuro,13,No
+2245,21,2025-05-01,Gastroenterology,Dr. Patel,CRP,Abnormal,Infectious,9,No
+3891,22,2025-07-15,Gastroenterology,Dr. Lee,CRP,Normal,GI,6,No
+1613,23,2025-06-25,Pulmonology,Dr. Lee,Throat Culture,Missing,Respiratory,9,Yes
+1766,24,2025-05-07,Gastroenterology,Dr. Smith,CRP,Missing,Infectious,7,Yes
+1223,25,2025-05-20,Gastroenterology,Dr. Smith,Throat Culture,Missing,Cardiac,13,No
+2594,26,2025-06-30,Gastroenterology,Dr. Gomez,CRP,Abnormal,Respiratory,1,No
+3563,27,2025-06-14,Neurology,Dr. Lee,Chest X-ray,Normal,GI,14,Yes
+1926,28,2025-07-03,Cardiology,Dr. Patel,CRP,Abnormal,Infectious,7,No
+4525,29,2025-07-09,Cardiology,Dr. Patel,CRP,Normal,GI,9,Yes
+2272,30,2025-06-26,Cardiology,Dr. Patel,Throat Culture,Abnormal,Infectious,10,No
+4815,31,2025-05-25,Gastroenterology,Dr. Lee,Urinalysis,Normal,Cardiac,13,No
+4134,32,2025-06-25,Neurology,Dr. Patel,Throat Culture,Normal,GI,15,No
+4072,33,2025-06-23,Cardiology,Dr. Smith,Throat Culture,Normal,Neuro,4,No
+3538,34,2025-07-01,Gastroenterology,Dr. Lee,CBC,Normal,Neuro,5,No
+4436,35,2025-07-04,Cardiology,Dr. Patel,MRI Brain,Normal,GI,10,No
+1120,36,2025-06-04,Neurology,Dr. Patel,Throat Culture,Normal,Cardiac,4,Yes
+3127,37,2025-06-26,Infectious Disease,Dr. Gomez,Urinalysis,Abnormal,Neuro,11,Yes
+2468,38,2025-07-13,Infectious Disease,Dr. Gomez,Chest X-ray,Normal,Neuro,6,No
+4829,39,2025-07-18,Infectious Disease,Dr. Smith,CRP,Normal,Respiratory,11,Yes
+3148,40,2025-06-08,Gastroenterology,Dr. Smith,MRI Brain,Normal,Respiratory,5,No
+1044,41,2025-05-05,Cardiology,Dr. Gomez,MRI Brain,Normal,Infectious,6,No
+2677,42,2025-05-10,Neurology,Dr. Gomez,Chest X-ray,Normal,Infectious,4,No
+4680,43,2025-07-27,Neurology,Dr. Smith,MRI Brain,Normal,GI,5,No
+4188,44,2025-08-08,Cardiology,Dr. Lee,CBC,Normal,Infectious,5,Yes
+3615,45,2025-07-07,Cardiology,Dr. Gomez,Chest X-ray,Normal,GI,2,No
+3042,46,2025-07-12,Neurology,Dr. Patel,Chest X-ray,Normal,Respiratory,7,No
+1480,47,2025-07-23,Infectious Disease,Dr. Patel,CRP,Abnormal,Infectious,10,Yes
+4766,48,2025-06-18,Cardiology,Dr. Lee,Chest X-ray,Missing,GI,17,No
+1331,49,2025-05-02,Cardiology,Dr. Smith,Chest X-ray,Abnormal,Neuro,17,Yes
+1235,50,2025-07-04,Infectious Disease,Dr. Smith,Urinalysis,Abnormal,Respiratory,10,No
+2217,51,2025-05-17,Cardiology,Dr. Lee,CRP,Normal,GI,14,No
+3400,52,2025-06-01,Infectious Disease,Dr. Lee,MRI Brain,Abnormal,Neuro,12,No
+1743,53,2025-08-02,Gastroenterology,Dr. Patel,CRP,Missing,Cardiac,10,Yes
+1390,54,2025-06-14,Cardiology,Dr. Lee,CBC,Normal,Cardiac,1,No
+4376,55,2025-08-01,Gastroenterology,Dr. Smith,Urinalysis,Abnormal,GI,1,No
+3435,56,2025-07-11,Infectious Disease,Dr. Patel,Urinalysis,Normal,Cardiac,4,No
+3982,57,2025-05-24,Pulmonology,Dr. Lee,CRP,Normal,GI,16,No
+1567,58,2025-05-11,Neurology,Dr. Patel,CRP,Normal,Cardiac,15,Yes
+1990,59,2025-06-05,Neurology,Dr. Patel,CRP,Normal,Infectious,12,Yes
+4972,60,2025-07-04,Cardiology,Dr. Gomez,Chest X-ray,Normal,GI,9,Yes
+4291,61,2025-07-01,Infectious Disease,Dr. Lee,Chest X-ray,Missing,Cardiac,1,Yes
+3664,62,2025-05-08,Pulmonology,Dr. Gomez,MRI Brain,Normal,Infectious,13,No
+4358,63,2025-05-24,Infectious Disease,Dr. Lee,Throat Culture,Normal,Respiratory,11,Yes
+1794,64,2025-08-01,Gastroenterology,Dr. Patel,Urinalysis,Missing,Infectious,11,Yes
+4374,65,2025-08-05,Infectious Disease,Dr. Lee,CBC,Normal,Infectious,14,No
+4127,66,2025-05-22,Neurology,Dr. Lee,Urinalysis,Normal,Cardiac,13,No
+4625,67,2025-06-05,Pulmonology,Dr. Lee,Chest X-ray,Abnormal,Cardiac,14,No
+1822,68,2025-08-06,Neurology,Dr. Gomez,CRP,Abnormal,Infectious,10,No
+1499,69,2025-07-07,Pulmonology,Dr. Gomez,Chest X-ray,Abnormal,Respiratory,1,No
+3842,70,2025-07-31,Infectious Disease,Dr. Patel,Throat Culture,Normal,Cardiac,11,No
+4163,71,2025-08-06,Neurology,Dr. Smith,CBC,Normal,Neuro,5,Yes
+4801,72,2025-05-20,Infectious Disease,Dr. Smith,Urinalysis,Normal,Infectious,3,Yes
+2983,73,2025-05-28,Infectious Disease,Dr. Lee,Urinalysis,Normal,Cardiac,17,Yes
+2986,74,2025-05-05,Neurology,Dr. Smith,Throat Culture,Abnormal,Neuro,13,Yes
+2685,75,2025-05-20,Cardiology,Dr. Patel,Chest X-ray,Normal,Respiratory,8,No
+1236,76,2025-06-03,Gastroenterology,Dr. Patel,MRI Brain,Abnormal,Cardiac,7,No
+2738,77,2025-05-31,Gastroenterology,Dr. Lee,CBC,Abnormal,GI,17,No
+4569,78,2025-06-27,Neurology,Dr. Patel,CBC,Normal,GI,3,No
+4425,79,2025-07-13,Gastroenterology,Dr. Lee,Throat Culture,Normal,Infectious,9,Yes
+4109,80,2025-08-02,Infectious Disease,Dr. Patel,CBC,Missing,GI,2,Yes
+3860,81,2025-07-21,Pulmonology,Dr. Lee,CRP,Normal,Neuro,9,No
+1689,82,2025-06-01,Infectious Disease,Dr. Smith,Chest X-ray,Normal,Respiratory,3,Yes
+2746,83,2025-05-03,Cardiology,Dr. Lee,Throat Culture,Normal,GI,9,Yes
+3349,84,2025-07-23,Pulmonology,Dr. Gomez,Chest X-ray,Normal,Respiratory,4,Yes
+3897,85,2025-06-20,Cardiology,Dr. Lee,CBC,Abnormal,Infectious,14,No
+4383,86,2025-05-19,Gastroenterology,Dr. Smith,Chest X-ray,Missing,GI,6,No
+3542,87,2025-05-22,Infectious Disease,Dr. Smith,Throat Culture,Abnormal,Infectious,12,No
+3833,88,2025-07-07,Infectious Disease,Dr. Gomez,Throat Culture,Abnormal,Infectious,11,Yes
+4298,89,2025-07-15,Neurology,Dr. Gomez,Chest X-ray,Normal,Respiratory,3,Yes
+1968,90,2025-06-28,Cardiology,Dr. Smith,CRP,Abnormal,Cardiac,9,Yes
+3934,91,2025-06-17,Cardiology,Dr. Gomez,Throat Culture,Abnormal,Respiratory,16,No
+2613,92,2025-05-17,Infectious Disease,Dr. Smith,Urinalysis,Normal,Respiratory,11,No
+4134,93,2025-05-13,Pulmonology,Dr. Lee,MRI Brain,Normal,Neuro,11,No
+4631,94,2025-08-02,Neurology,Dr. Gomez,Throat Culture,Normal,Infectious,1,Yes
+3117,95,2025-05-10,Gastroenterology,Dr. Patel,Urinalysis,Normal,Infectious,15,Yes
+1406,96,2025-07-16,Neurology,Dr. Gomez,CBC,Normal,Respiratory,14,Yes
+1552,97,2025-07-07,Infectious Disease,Dr. Gomez,Urinalysis,Abnormal,Neuro,3,No
+3867,98,2025-05-15,Pulmonology,Dr. Lee,CBC,Abnormal,Infectious,17,No
+3625,99,2025-05-21,Pulmonology,Dr. Patel,CBC,Abnormal,Neuro,13,Yes
+1941,100,2025-06-23,Gastroenterology,Dr. Patel,Chest X-ray,Abnormal,Cardiac,2,No
+3997,101,2025-05-16,Infectious Disease,Dr. Lee,Chest X-ray,Normal,Infectious,14,No
+3080,102,2025-06-29,Infectious Disease,Dr. Patel,CBC,Normal,GI,5,Yes
+2204,103,2025-06-05,Pulmonology,Dr. Smith,Urinalysis,Normal,Neuro,4,Yes
+1371,104,2025-06-18,Pulmonology,Dr. Smith,Throat Culture,Normal,Infectious,16,Yes
+4783,105,2025-05-05,Pulmonology,Dr. Patel,MRI Brain,Normal,Respiratory,9,No
+1900,106,2025-06-13,Cardiology,Dr. Patel,Throat Culture,Normal,Respiratory,15,Yes
+4101,107,2025-07-12,Cardiology,Dr. Patel,Chest X-ray,Normal,GI,2,No
+1076,108,2025-07-30,Gastroenterology,Dr. Smith,MRI Brain,Missing,Neuro,6,No
+4428,109,2025-06-24,Gastroenterology,Dr. Gomez,Chest X-ray,Abnormal,Neuro,8,Yes
+4072,110,2025-06-13,Cardiology,Dr. Smith,MRI Brain,Normal,Respiratory,8,No
+4301,111,2025-07-27,Cardiology,Dr. Smith,MRI Brain,Normal,GI,1,No
+2026,112,2025-07-17,Cardiology,Dr. Gomez,CRP,Normal,Cardiac,6,No
+2839,113,2025-06-20,Pulmonology,Dr. Gomez,Urinalysis,Normal,Neuro,12,No
+4413,114,2025-06-09,Infectious Disease,Dr. Gomez,Urinalysis,Normal,Cardiac,7,No
+2814,115,2025-05-04,Pulmonology,Dr. Lee,CRP,Normal,Neuro,12,No
+3377,116,2025-05-30,Cardiology,Dr. Patel,Urinalysis,Missing,Respiratory,17,No
+1990,117,2025-05-13,Cardiology,Dr. Patel,CBC,Missing,GI,14,Yes
+2878,118,2025-07-16,Cardiology,Dr. Patel,Chest X-ray,Abnormal,Respiratory,6,No
+1119,119,2025-07-19,Infectious Disease,Dr. Gomez,Throat Culture,Normal,Respiratory,5,No
+1437,120,2025-05-30,Cardiology,Dr. Gomez,Throat Culture,Normal,Cardiac,5,No
+4927,121,2025-05-09,Pulmonology,Dr. Smith,Chest X-ray,Normal,Neuro,4,No
+3987,122,2025-06-24,Gastroenterology,Dr. Smith,Urinalysis,Abnormal,Neuro,3,Yes
+2076,123,2025-06-08,Pulmonology,Dr. Gomez,Throat Culture,Normal,Infectious,17,Yes
+3826,124,2025-07-10,Cardiology,Dr. Lee,Urinalysis,Normal,Cardiac,13,Yes
+2160,125,2025-05-22,Cardiology,Dr. Gomez,Chest X-ray,Normal,Neuro,1,No
+2867,126,2025-06-14,Infectious Disease,Dr. Patel,CBC,Normal,GI,9,Yes
+2655,127,2025-07-31,Pulmonology,Dr. Smith,Throat Culture,Abnormal,Respiratory,4,No
+3343,128,2025-05-08,Infectious Disease,Dr. Patel,Chest X-ray,Normal,Neuro,3,No
+4896,129,2025-07-21,Pulmonology,Dr. Patel,CRP,Normal,Infectious,9,No
+1323,130,2025-07-09,Gastroenterology,Dr. Gomez,MRI Brain,Abnormal,GI,9,No
+4567,131,2025-06-22,Pulmonology,Dr. Gomez,CBC,Abnormal,Infectious,17,Yes
+1627,132,2025-06-11,Pulmonology,Dr. Gomez,Urinalysis,Normal,Neuro,13,No
+1839,133,2025-05-30,Gastroenterology,Dr. Patel,CRP,Normal,Neuro,5,No
+1624,134,2025-05-27,Pulmonology,Dr. Lee,MRI Brain,Missing,Respiratory,13,No
+3832,135,2025-07-04,Infectious Disease,Dr. Lee,CRP,Normal,Cardiac,10,Yes
+3630,136,2025-07-02,Infectious Disease,Dr. Smith,Chest X-ray,Normal,Respiratory,6,Yes
+1775,137,2025-07-26,Neurology,Dr. Smith,CRP,Missing,Infectious,8,Yes
+2357,138,2025-08-07,Pulmonology,Dr. Patel,CRP,Missing,Infectious,16,No
+4088,139,2025-05-13,Infectious Disease,Dr. Patel,MRI Brain,Abnormal,Respiratory,9,Yes
+1764,140,2025-05-07,Pulmonology,Dr. Smith,CBC,Missing,Neuro,10,Yes
+4074,141,2025-06-04,Cardiology,Dr. Smith,Throat Culture,Abnormal,Infectious,13,No
+2383,142,2025-06-29,Infectious Disease,Dr. Patel,Throat Culture,Missing,Neuro,1,No
+2668,143,2025-08-02,Cardiology,Dr. Patel,Chest X-ray,Abnormal,GI,11,Yes
+4010,144,2025-05-18,Gastroenterology,Dr. Gomez,CRP,Abnormal,Infectious,14,Yes
+2053,145,2025-05-06,Pulmonology,Dr. Lee,CBC,Normal,GI,7,No
+2253,146,2025-07-19,Gastroenterology,Dr. Gomez,Chest X-ray,Normal,Neuro,3,Yes
+3381,147,2025-06-19,Cardiology,Dr. Lee,Urinalysis,Normal,Cardiac,1,Yes
+3239,148,2025-06-24,Cardiology,Dr. Lee,CBC,Normal,Infectious,16,Yes
+3840,149,2025-07-16,Pulmonology,Dr. Patel,CBC,Abnormal,Infectious,4,No
+4264,150,2025-08-01,Pulmonology,Dr. Lee,CRP,Missing,GI,10,No
+4797,151,2025-06-24,Neurology,Dr. Gomez,Chest X-ray,Normal,GI,10,Yes
+2891,152,2025-06-17,Pulmonology,Dr. Gomez,Throat Culture,Normal,Respiratory,16,Yes
+2131,153,2025-06-07,Infectious Disease,Dr. Patel,Throat Culture,Missing,Respiratory,1,No
+1239,154,2025-07-13,Infectious Disease,Dr. Smith,Chest X-ray,Abnormal,Neuro,8,No
+1218,155,2025-07-27,Cardiology,Dr. Gomez,Chest X-ray,Normal,Infectious,11,No
+2757,156,2025-05-22,Infectious Disease,Dr. Smith,Throat Culture,Normal,Neuro,5,Yes
+3767,157,2025-05-05,Neurology,Dr. Patel,Throat Culture,Abnormal,Respiratory,9,No
+3692,158,2025-07-31,Gastroenterology,Dr. Patel,CBC,Abnormal,GI,15,Yes
+1149,159,2025-07-16,Gastroenterology,Dr. Lee,Urinalysis,Normal,Cardiac,14,No
+4310,160,2025-07-15,Infectious Disease,Dr. Smith,CBC,Abnormal,Neuro,4,Yes
+3715,161,2025-05-07,Cardiology,Dr. Gomez,CRP,Abnormal,Infectious,6,Yes
+2452,162,2025-08-06,Pulmonology,Dr. Gomez,Urinalysis,Abnormal,Cardiac,1,Yes
+2400,163,2025-07-25,Neurology,Dr. Gomez,CRP,Normal,Neuro,17,No
+2482,164,2025-07-25,Pulmonology,Dr. Lee,Chest X-ray,Missing,Neuro,15,No
+3459,165,2025-05-31,Pulmonology,Dr. Patel,Throat Culture,Normal,GI,12,No
+2472,166,2025-08-01,Pulmonology,Dr. Patel,Throat Culture,Normal,GI,15,No
+3133,167,2025-06-26,Pulmonology,Dr. Lee,MRI Brain,Missing,Infectious,8,No
+1793,168,2025-06-21,Neurology,Dr. Patel,Urinalysis,Normal,Neuro,12,Yes
+3925,169,2025-06-25,Pulmonology,Dr. Smith,CBC,Abnormal,Infectious,11,No
+1963,170,2025-05-13,Cardiology,Dr. Smith,Chest X-ray,Normal,GI,17,No
+1005,171,2025-07-16,Gastroenterology,Dr. Patel,Urinalysis,Normal,GI,5,Yes
+3944,172,2025-06-06,Cardiology,Dr. Gomez,CBC,Normal,GI,8,Yes
+2709,173,2025-07-11,Cardiology,Dr. Patel,MRI Brain,Normal,Infectious,2,Yes
+1273,174,2025-07-25,Gastroenterology,Dr. Lee,CBC,Normal,Respiratory,12,Yes
+2866,175,2025-06-28,Cardiology,Dr. Smith,Throat Culture,Normal,Cardiac,2,No
+4879,176,2025-06-11,Gastroenterology,Dr. Lee,Urinalysis,Abnormal,Cardiac,13,No
+2687,177,2025-05-16,Cardiology,Dr. Smith,MRI Brain,Normal,Respiratory,5,Yes
+3535,178,2025-06-13,Pulmonology,Dr. Gomez,MRI Brain,Normal,Cardiac,17,No
+1706,179,2025-06-29,Pulmonology,Dr. Lee,Throat Culture,Normal,Neuro,5,Yes
+4027,180,2025-07-22,Gastroenterology,Dr. Smith,CBC,Abnormal,Infectious,10,Yes
+1982,181,2025-07-03,Gastroenterology,Dr. Smith,MRI Brain,Abnormal,Neuro,6,No
+1844,182,2025-05-29,Pulmonology,Dr. Patel,CBC,Normal,Cardiac,13,No
+4124,183,2025-05-17,Gastroenterology,Dr. Lee,Throat Culture,Normal,GI,2,No
+4864,184,2025-05-06,Pulmonology,Dr. Lee,CBC,Normal,Cardiac,13,Yes
+4586,185,2025-06-05,Cardiology,Dr. Lee,Throat Culture,Normal,Neuro,13,No
+2735,186,2025-07-17,Cardiology,Dr. Smith,Throat Culture,Abnormal,GI,17,No
+3524,187,2025-06-02,Cardiology,Dr. Smith,MRI Brain,Normal,Infectious,4,No
+2637,188,2025-07-27,Cardiology,Dr. Lee,CBC,Normal,Neuro,13,Yes
+2607,189,2025-08-04,Cardiology,Dr. Patel,Urinalysis,Normal,Neuro,17,No
+3299,190,2025-06-03,Gastroenterology,Dr. Smith,Throat Culture,Normal,Infectious,5,No
+3482,191,2025-06-15,Infectious Disease,Dr. Lee,Chest X-ray,Normal,Cardiac,10,No
+2212,192,2025-06-10,Gastroenterology,Dr. Patel,CBC,Normal,Infectious,11,No
+3793,193,2025-07-31,Gastroenterology,Dr. Patel,Throat Culture,Abnormal,Cardiac,9,No
+3339,194,2025-05-15,Gastroenterology,Dr. Lee,Chest X-ray,Normal,GI,1,Yes
+4424,195,2025-06-15,Gastroenterology,Dr. Patel,CRP,Abnormal,Respiratory,8,No
+3674,196,2025-06-12,Pulmonology,Dr. Lee,Urinalysis,Normal,Respiratory,2,Yes
+4353,197,2025-08-05,Infectious Disease,Dr. Gomez,Throat Culture,Normal,Cardiac,16,Yes
+4241,198,2025-06-04,Cardiology,Dr. Gomez,Chest X-ray,Normal,Infectious,16,Yes
+1724,199,2025-08-04,Cardiology,Dr. Patel,MRI Brain,Normal,Respiratory,14,No
+2843,200,2025-06-25,Neurology,Dr. Smith,CBC,Normal,GI,6,No
+2285,201,2025-05-19,Neurology,Dr. Gomez,MRI Brain,Abnormal,Infectious,12,No
+4510,202,2025-05-10,Infectious Disease,Dr. Smith,Urinalysis,Abnormal,Neuro,7,No
+4964,203,2025-07-13,Pulmonology,Dr. Lee,CRP,Normal,Cardiac,8,No
+3815,204,2025-05-14,Pulmonology,Dr. Smith,Chest X-ray,Normal,GI,9,No
+4491,205,2025-07-25,Pulmonology,Dr. Gomez,CRP,Normal,Respiratory,16,Yes
+1591,206,2025-06-13,Neurology,Dr. Patel,MRI Brain,Normal,Neuro,13,No
+3344,207,2025-05-02,Infectious Disease,Dr. Smith,MRI Brain,Normal,GI,1,Yes
+4332,208,2025-06-01,Gastroenterology,Dr. Lee,MRI Brain,Normal,Infectious,8,No
+4483,209,2025-05-15,Infectious Disease,Dr. Patel,Throat Culture,Abnormal,GI,13,No
+1520,210,2025-07-20,Infectious Disease,Dr. Smith,MRI Brain,Abnormal,Neuro,2,No
+3113,211,2025-06-18,Cardiology,Dr. Lee,CBC,Abnormal,Infectious,14,Yes
+3580,212,2025-05-26,Infectious Disease,Dr. Lee,Urinalysis,Normal,Infectious,17,Yes
+3306,213,2025-06-03,Cardiology,Dr. Lee,Chest X-ray,Normal,Respiratory,13,Yes
+3734,214,2025-07-25,Gastroenterology,Dr. Smith,Urinalysis,Abnormal,Infectious,17,No
+1491,215,2025-07-23,Cardiology,Dr. Gomez,CRP,Missing,Neuro,17,No
+1077,216,2025-07-22,Cardiology,Dr. Gomez,CBC,Abnormal,Neuro,16,No
+1776,217,2025-07-04,Cardiology,Dr. Lee,Chest X-ray,Normal,Neuro,13,Yes
+4477,218,2025-07-17,Cardiology,Dr. Lee,CRP,Normal,Infectious,14,No
+4211,219,2025-06-28,Infectious Disease,Dr. Smith,Throat Culture,Abnormal,Cardiac,9,No
+1064,220,2025-05-11,Neurology,Dr. Patel,CBC,Normal,Neuro,14,No
+1010,221,2025-06-22,Neurology,Dr. Smith,CBC,Normal,GI,6,No
+1873,222,2025-05-28,Pulmonology,Dr. Gomez,MRI Brain,Normal,Neuro,9,No
+3680,223,2025-05-29,Gastroenterology,Dr. Lee,MRI Brain,Abnormal,Infectious,5,No
+3929,224,2025-05-09,Pulmonology,Dr. Smith,Urinalysis,Missing,Infectious,5,No
+3465,225,2025-08-06,Neurology,Dr. Smith,CRP,Normal,Infectious,1,Yes
+4867,226,2025-07-29,Pulmonology,Dr. Smith,CRP,Missing,Infectious,1,No
+1031,227,2025-06-14,Gastroenterology,Dr. Gomez,CRP,Abnormal,GI,3,Yes
+1907,228,2025-06-21,Neurology,Dr. Lee,CRP,Normal,Neuro,3,No
+4103,229,2025-06-24,Cardiology,Dr. Patel,Chest X-ray,Normal,Cardiac,14,No
+1996,230,2025-06-12,Neurology,Dr. Smith,Throat Culture,Normal,Respiratory,16,No
+3849,231,2025-08-01,Pulmonology,Dr. Lee,MRI Brain,Normal,Respiratory,7,No
+3313,232,2025-05-08,Cardiology,Dr. Gomez,CRP,Normal,Respiratory,1,Yes
+3781,233,2025-05-16,Neurology,Dr. Lee,CBC,Abnormal,GI,7,Yes
+3894,234,2025-05-01,Cardiology,Dr. Gomez,CRP,Normal,GI,11,Yes
+1066,235,2025-07-22,Cardiology,Dr. Patel,CRP,Normal,Infectious,16,No
+4913,236,2025-06-18,Pulmonology,Dr. Patel,Urinalysis,Normal,Cardiac,17,Yes
+3251,237,2025-07-04,Gastroenterology,Dr. Lee,Urinalysis,Abnormal,Cardiac,5,No
+3038,238,2025-06-14,Neurology,Dr. Lee,Throat Culture,Normal,Neuro,8,No
+4577,239,2025-05-10,Neurology,Dr. Gomez,Throat Culture,Abnormal,Respiratory,16,Yes
+2145,240,2025-06-16,Pulmonology,Dr. Patel,CBC,Normal,Respiratory,1,No
+4393,241,2025-06-26,Infectious Disease,Dr. Smith,Urinalysis,Abnormal,GI,12,No
+1482,242,2025-08-07,Neurology,Dr. Patel,Urinalysis,Normal,Neuro,17,Yes
+1703,243,2025-06-18,Pulmonology,Dr. Patel,CBC,Normal,Respiratory,7,Yes
+2105,244,2025-06-13,Infectious Disease,Dr. Lee,Chest X-ray,Missing,Neuro,3,No
+1133,245,2025-05-06,Cardiology,Dr. Gomez,MRI Brain,Abnormal,Neuro,3,Yes
+4695,246,2025-05-22,Infectious Disease,Dr. Lee,Urinalysis,Abnormal,Cardiac,14,Yes
+3491,247,2025-05-17,Neurology,Dr. Patel,Chest X-ray,Abnormal,Respiratory,5,No
+2702,248,2025-05-12,Cardiology,Dr. Gomez,Chest X-ray,Missing,Respiratory,5,Yes
+2887,249,2025-06-02,Infectious Disease,Dr. Lee,MRI Brain,Normal,GI,9,No
+1050,250,2025-06-10,Pulmonology,Dr. Gomez,Chest X-ray,Abnormal,Cardiac,9,No
+4214,251,2025-06-06,Infectious Disease,Dr. Gomez,CRP,Normal,Respiratory,14,Yes
+4574,252,2025-07-09,Pulmonology,Dr. Lee,Urinalysis,Normal,Cardiac,16,Yes
+4192,253,2025-05-29,Cardiology,Dr. Smith,Urinalysis,Abnormal,Cardiac,2,Yes
+4793,254,2025-08-02,Cardiology,Dr. Patel,Urinalysis,Normal,Infectious,6,Yes
+4542,255,2025-06-19,Infectious Disease,Dr. Patel,Chest X-ray,Abnormal,GI,13,Yes
+2424,256,2025-07-01,Gastroenterology,Dr. Patel,CRP,Normal,Neuro,1,No
+1880,257,2025-06-22,Neurology,Dr. Patel,Chest X-ray,Abnormal,GI,5,No
+3821,258,2025-08-04,Gastroenterology,Dr. Lee,Urinalysis,Abnormal,Neuro,4,Yes
+3929,259,2025-05-08,Neurology,Dr. Patel,Urinalysis,Normal,Neuro,7,No
+4495,260,2025-08-01,Cardiology,Dr. Smith,Urinalysis,Normal,Respiratory,16,No
+3172,261,2025-06-28,Neurology,Dr. Gomez,CBC,Abnormal,Cardiac,3,No
+4924,262,2025-06-20,Cardiology,Dr. Gomez,CBC,Abnormal,Cardiac,8,Yes
+3172,263,2025-06-18,Gastroenterology,Dr. Lee,Urinalysis,Normal,Cardiac,13,Yes
+4970,264,2025-07-18,Gastroenterology,Dr. Patel,Urinalysis,Normal,Respiratory,12,Yes
+3070,265,2025-06-17,Cardiology,Dr. Gomez,CBC,Abnormal,Respiratory,13,No
+1388,266,2025-07-02,Neurology,Dr. Gomez,Throat Culture,Abnormal,Infectious,5,No
+4822,267,2025-07-17,Pulmonology,Dr. Gomez,Chest X-ray,Abnormal,GI,11,Yes
+4297,268,2025-07-23,Neurology,Dr. Lee,Urinalysis,Normal,GI,6,No
+2895,269,2025-07-17,Infectious Disease,Dr. Patel,MRI Brain,Normal,Neuro,12,Yes
+3611,270,2025-05-25,Cardiology,Dr. Lee,Chest X-ray,Abnormal,Cardiac,3,No
+4424,271,2025-07-07,Pulmonology,Dr. Patel,Chest X-ray,Normal,Cardiac,8,No
+4544,272,2025-05-08,Cardiology,Dr. Smith,Chest X-ray,Abnormal,Neuro,17,No
+2713,273,2025-06-19,Gastroenterology,Dr. Smith,CBC,Normal,Neuro,17,Yes
+4894,274,2025-06-02,Gastroenterology,Dr. Gomez,CBC,Normal,GI,15,No
+1906,275,2025-06-03,Cardiology,Dr. Gomez,MRI Brain,Normal,Neuro,2,Yes
+4088,276,2025-07-15,Gastroenterology,Dr. Patel,Chest X-ray,Normal,Neuro,8,Yes
+2449,277,2025-07-31,Cardiology,Dr. Gomez,Chest X-ray,Normal,Neuro,1,Yes
+1480,278,2025-07-08,Neurology,Dr. Patel,CBC,Normal,Neuro,11,Yes
+2399,279,2025-08-04,Infectious Disease,Dr. Gomez,CRP,Abnormal,Cardiac,15,Yes
+3675,280,2025-07-01,Pulmonology,Dr. Smith,Chest X-ray,Normal,Respiratory,10,No
+2323,281,2025-08-03,Neurology,Dr. Smith,Urinalysis,Normal,GI,7,No
+2466,282,2025-07-18,Gastroenterology,Dr. Gomez,CBC,Normal,Infectious,5,Yes
+3707,283,2025-06-13,Infectious Disease,Dr. Lee,Urinalysis,Abnormal,Neuro,15,Yes
+3834,284,2025-07-16,Neurology,Dr. Smith,Chest X-ray,Normal,Respiratory,17,Yes
+1940,285,2025-05-17,Cardiology,Dr. Gomez,CRP,Missing,GI,10,Yes
+3770,286,2025-05-27,Pulmonology,Dr. Lee,Chest X-ray,Abnormal,GI,6,Yes
+2465,287,2025-08-05,Cardiology,Dr. Gomez,CBC,Normal,Cardiac,4,Yes
+2024,288,2025-08-06,Cardiology,Dr. Smith,MRI Brain,Abnormal,GI,6,No
+4065,289,2025-05-09,Neurology,Dr. Smith,Throat Culture,Normal,Neuro,7,No
+2548,290,2025-06-22,Infectious Disease,Dr. Patel,Throat Culture,Missing,Infectious,17,No
+2069,291,2025-08-03,Pulmonology,Dr. Lee,Chest X-ray,Normal,Neuro,13,No
+1277,292,2025-08-06,Neurology,Dr. Smith,CRP,Normal,Neuro,17,Yes
+1784,293,2025-07-19,Cardiology,Dr. Lee,CBC,Normal,Neuro,11,Yes
+1174,294,2025-05-23,Pulmonology,Dr. Lee,Throat Culture,Normal,GI,16,No
+2499,295,2025-06-26,Gastroenterology,Dr. Patel,CRP,Abnormal,Neuro,13,Yes
+1466,296,2025-06-23,Pulmonology,Dr. Lee,CRP,Normal,Infectious,4,No
+2295,297,2025-06-04,Infectious Disease,Dr. Lee,MRI Brain,Normal,Cardiac,2,No
+2386,298,2025-05-13,Cardiology,Dr. Patel,Chest X-ray,Normal,Infectious,2,Yes
+4322,299,2025-05-05,Neurology,Dr. Smith,Chest X-ray,Normal,Cardiac,12,No
+3012,300,2025-06-14,Neurology,Dr. Smith,Urinalysis,Normal,Infectious,6,No
+2427,301,2025-06-25,Infectious Disease,Dr. Lee,CBC,Normal,Infectious,7,No
+2738,302,2025-05-21,Pulmonology,Dr. Patel,CRP,Normal,GI,4,Yes
+4055,303,2025-06-13,Gastroenterology,Dr. Smith,Throat Culture,Normal,GI,9,No
+2013,304,2025-06-19,Infectious Disease,Dr. Patel,Urinalysis,Normal,Cardiac,17,No
+2964,305,2025-05-19,Cardiology,Dr. Patel,CBC,Abnormal,Cardiac,1,No
+4563,306,2025-06-26,Gastroenterology,Dr. Patel,CBC,Missing,Infectious,6,No
+1601,307,2025-05-22,Cardiology,Dr. Patel,CBC,Abnormal,Cardiac,9,No
+2856,308,2025-06-20,Gastroenterology,Dr. Lee,Throat Culture,Normal,Neuro,5,Yes
+3648,309,2025-05-23,Infectious Disease,Dr. Gomez,CBC,Normal,Neuro,14,No
+4616,310,2025-05-19,Gastroenterology,Dr. Patel,Urinalysis,Normal,GI,2,No
+1551,311,2025-07-09,Infectious Disease,Dr. Patel,MRI Brain,Normal,GI,7,No
+2712,312,2025-05-06,Cardiology,Dr. Lee,Throat Culture,Abnormal,Cardiac,16,Yes
+4022,313,2025-05-06,Cardiology,Dr. Gomez,CRP,Abnormal,GI,8,Yes
+4493,314,2025-07-10,Neurology,Dr. Lee,Throat Culture,Normal,Cardiac,1,Yes
+2658,315,2025-08-04,Infectious Disease,Dr. Smith,Chest X-ray,Normal,Infectious,3,Yes
+4111,316,2025-05-30,Neurology,Dr. Lee,Chest X-ray,Normal,Respiratory,14,No
+2934,317,2025-05-17,Neurology,Dr. Lee,CRP,Normal,Infectious,1,Yes
+2563,318,2025-06-12,Gastroenterology,Dr. Lee,CRP,Missing,Respiratory,7,Yes
+1435,319,2025-06-16,Pulmonology,Dr. Patel,Chest X-ray,Normal,Respiratory,7,Yes
+1753,320,2025-07-08,Gastroenterology,Dr. Gomez,CBC,Normal,GI,9,Yes
+4824,321,2025-07-17,Pulmonology,Dr. Smith,Throat Culture,Normal,Neuro,14,Yes
+3818,322,2025-07-06,Cardiology,Dr. Gomez,Throat Culture,Abnormal,Cardiac,12,Yes
+3550,323,2025-05-13,Neurology,Dr. Lee,MRI Brain,Missing,GI,14,No
+3257,324,2025-06-24,Cardiology,Dr. Patel,CBC,Normal,Infectious,5,Yes
+1696,325,2025-07-28,Cardiology,Dr. Patel,Chest X-ray,Abnormal,Neuro,10,Yes
+1641,326,2025-07-31,Neurology,Dr. Lee,CBC,Abnormal,Neuro,10,Yes
+3542,327,2025-06-25,Cardiology,Dr. Smith,Urinalysis,Normal,Cardiac,6,No
+4906,328,2025-05-17,Gastroenterology,Dr. Gomez,CBC,Missing,Neuro,9,No
+1242,329,2025-05-06,Infectious Disease,Dr. Gomez,MRI Brain,Normal,Neuro,10,No
+4102,330,2025-08-02,Neurology,Dr. Smith,CRP,Normal,Respiratory,5,Yes
+1329,331,2025-07-13,Neurology,Dr. Lee,MRI Brain,Normal,Respiratory,1,No
+2239,332,2025-06-14,Gastroenterology,Dr. Patel,CRP,Normal,GI,11,No
+3800,333,2025-06-25,Gastroenterology,Dr. Gomez,CRP,Normal,GI,14,No
+3884,334,2025-06-09,Pulmonology,Dr. Smith,Chest X-ray,Abnormal,Infectious,10,Yes
+3349,335,2025-07-18,Infectious Disease,Dr. Smith,Urinalysis,Normal,Neuro,9,No
+4884,336,2025-07-10,Cardiology,Dr. Lee,CRP,Normal,GI,10,Yes
+3660,337,2025-07-02,Pulmonology,Dr. Lee,Throat Culture,Missing,Infectious,10,No
+2950,338,2025-05-03,Pulmonology,Dr. Smith,Urinalysis,Abnormal,Neuro,1,No
+1080,339,2025-06-07,Gastroenterology,Dr. Patel,CBC,Normal,Respiratory,11,No
+2093,340,2025-07-26,Gastroenterology,Dr. Gomez,Urinalysis,Abnormal,Respiratory,13,Yes
+2716,341,2025-06-16,Gastroenterology,Dr. Smith,Throat Culture,Missing,Infectious,10,No
+1679,342,2025-05-10,Infectious Disease,Dr. Lee,CRP,Normal,Respiratory,11,No
+2773,343,2025-06-05,Cardiology,Dr. Smith,MRI Brain,Normal,Respiratory,14,Yes
+2473,344,2025-05-16,Cardiology,Dr. Gomez,MRI Brain,Missing,Respiratory,7,Yes
+3266,345,2025-05-21,Infectious Disease,Dr. Patel,MRI Brain,Normal,Infectious,8,No
+3400,346,2025-06-02,Gastroenterology,Dr. Lee,CBC,Normal,Respiratory,6,Yes
+1815,347,2025-08-08,Pulmonology,Dr. Smith,CRP,Normal,Cardiac,10,No
+4834,348,2025-05-22,Pulmonology,Dr. Lee,Chest X-ray,Normal,GI,14,Yes
+2663,349,2025-07-10,Neurology,Dr. Smith,Chest X-ray,Missing,Respiratory,5,No
+4661,350,2025-07-24,Pulmonology,Dr. Lee,MRI Brain,Missing,Cardiac,10,Yes
+4531,351,2025-05-01,Neurology,Dr. Smith,Throat Culture,Normal,Infectious,10,Yes
+2319,352,2025-07-24,Neurology,Dr. Patel,MRI Brain,Missing,GI,10,No
+3955,353,2025-06-03,Neurology,Dr. Patel,Throat Culture,Normal,Cardiac,11,No
+3913,354,2025-05-22,Gastroenterology,Dr. Patel,CBC,Abnormal,GI,3,No
+3853,355,2025-07-06,Infectious Disease,Dr. Lee,Chest X-ray,Abnormal,Infectious,13,No
+1310,356,2025-05-12,Gastroenterology,Dr. Gomez,Urinalysis,Normal,Respiratory,7,No
+2624,357,2025-06-17,Gastroenterology,Dr. Patel,CBC,Normal,Respiratory,12,Yes
+1922,358,2025-05-12,Pulmonology,Dr. Gomez,Throat Culture,Normal,GI,13,Yes
+4028,359,2025-06-06,Gastroenterology,Dr. Smith,MRI Brain,Abnormal,Infectious,15,No
+2952,360,2025-07-12,Cardiology,Dr. Gomez,Urinalysis,Normal,Neuro,12,No
+2446,361,2025-06-13,Pulmonology,Dr. Lee,Urinalysis,Normal,Respiratory,12,Yes
+4193,362,2025-07-11,Pulmonology,Dr. Lee,CRP,Abnormal,Infectious,11,Yes
+4379,363,2025-06-23,Neurology,Dr. Gomez,CRP,Missing,Infectious,7,Yes
+4548,364,2025-05-08,Infectious Disease,Dr. Gomez,Chest X-ray,Normal,Neuro,14,No
+1850,365,2025-05-22,Pulmonology,Dr. Lee,Urinalysis,Normal,Cardiac,8,No
+1112,366,2025-05-20,Cardiology,Dr. Smith,CRP,Normal,GI,6,No
+3689,367,2025-07-26,Pulmonology,Dr. Smith,CBC,Missing,Cardiac,16,Yes
+4500,368,2025-06-15,Neurology,Dr. Smith,CRP,Missing,Respiratory,7,No
+3890,369,2025-06-20,Infectious Disease,Dr. Lee,MRI Brain,Normal,Infectious,16,No
+4071,370,2025-08-08,Cardiology,Dr. Patel,CRP,Normal,Infectious,10,No
+3250,371,2025-07-21,Cardiology,Dr. Patel,Chest X-ray,Abnormal,Infectious,12,No
+1560,372,2025-06-03,Infectious Disease,Dr. Gomez,CBC,Normal,GI,8,Yes
+4432,373,2025-05-09,Pulmonology,Dr. Gomez,MRI Brain,Normal,Respiratory,15,No
+2026,374,2025-07-19,Cardiology,Dr. Patel,Urinalysis,Normal,Infectious,8,No
+4871,375,2025-07-14,Pulmonology,Dr. Patel,CRP,Abnormal,GI,13,Yes
+1999,376,2025-05-19,Cardiology,Dr. Patel,CBC,Normal,Cardiac,17,Yes
+1159,377,2025-07-31,Cardiology,Dr. Smith,Chest X-ray,Missing,GI,6,Yes
+3481,378,2025-06-29,Neurology,Dr. Gomez,Throat Culture,Normal,Respiratory,3,Yes
+2551,379,2025-07-21,Neurology,Dr. Gomez,Urinalysis,Abnormal,Infectious,3,No
+1685,380,2025-07-30,Neurology,Dr. Smith,Throat Culture,Normal,Respiratory,12,No
+3809,381,2025-05-01,Gastroenterology,Dr. Gomez,Chest X-ray,Normal,Cardiac,4,Yes
+1902,382,2025-07-12,Gastroenterology,Dr. Lee,Chest X-ray,Normal,Cardiac,9,Yes
+2529,383,2025-05-14,Infectious Disease,Dr. Patel,Throat Culture,Abnormal,Respiratory,16,No
+2620,384,2025-05-25,Gastroenterology,Dr. Gomez,MRI Brain,Abnormal,Neuro,10,No
+3710,385,2025-05-13,Neurology,Dr. Smith,MRI Brain,Normal,Respiratory,7,Yes
+2928,386,2025-06-19,Cardiology,Dr. Smith,Urinalysis,Abnormal,GI,7,Yes
+3961,387,2025-08-07,Infectious Disease,Dr. Patel,Urinalysis,Normal,Neuro,7,Yes
+3591,388,2025-07-07,Pulmonology,Dr. Lee,Urinalysis,Normal,Neuro,17,No
+2479,389,2025-08-05,Cardiology,Dr. Gomez,CBC,Normal,GI,5,No
+4370,390,2025-07-30,Pulmonology,Dr. Patel,CBC,Normal,Neuro,17,Yes
+2865,391,2025-07-21,Pulmonology,Dr. Patel,CBC,Normal,Infectious,13,Yes
+2883,392,2025-07-15,Pulmonology,Dr. Smith,MRI Brain,Normal,GI,15,No
+4429,393,2025-05-02,Gastroenterology,Dr. Lee,MRI Brain,Normal,Cardiac,14,Yes
+4069,394,2025-06-07,Cardiology,Dr. Gomez,Urinalysis,Normal,Respiratory,14,No
+2951,395,2025-06-07,Gastroenterology,Dr. Gomez,Throat Culture,Missing,Infectious,3,No
+3362,396,2025-06-24,Infectious Disease,Dr. Gomez,Throat Culture,Normal,Cardiac,11,Yes
+4912,397,2025-07-13,Infectious Disease,Dr. Gomez,MRI Brain,Normal,Neuro,6,No
+1422,398,2025-07-31,Pulmonology,Dr. Gomez,CRP,Normal,Infectious,17,Yes
+2201,399,2025-07-23,Neurology,Dr. Lee,CBC,Normal,Infectious,16,No
+3798,400,2025-06-13,Infectious Disease,Dr. Gomez,CRP,Missing,GI,7,Yes
+3432,401,2025-06-20,Pulmonology,Dr. Lee,MRI Brain,Normal,Cardiac,8,No
+1799,402,2025-07-24,Infectious Disease,Dr. Gomez,MRI Brain,Normal,Cardiac,13,No
+1791,403,2025-07-06,Cardiology,Dr. Lee,CBC,Normal,Infectious,6,No
+4680,404,2025-05-09,Neurology,Dr. Patel,CRP,Missing,Cardiac,9,No
+2031,405,2025-07-02,Infectious Disease,Dr. Lee,Urinalysis,Normal,Cardiac,14,No
+2280,406,2025-07-24,Neurology,Dr. Patel,Chest X-ray,Abnormal,Infectious,9,No
+2339,407,2025-06-27,Infectious Disease,Dr. Lee,CRP,Abnormal,Infectious,4,Yes
+2182,408,2025-06-18,Neurology,Dr. Smith,Throat Culture,Normal,Infectious,12,No
+1483,409,2025-07-14,Cardiology,Dr. Patel,CRP,Normal,GI,5,Yes
+3298,410,2025-06-02,Gastroenterology,Dr. Patel,CBC,Missing,GI,6,Yes
+1944,411,2025-07-06,Infectious Disease,Dr. Lee,Urinalysis,Normal,Cardiac,4,No
+1404,412,2025-05-23,Gastroenterology,Dr. Smith,CBC,Normal,GI,17,No
+3240,413,2025-07-07,Cardiology,Dr. Patel,Chest X-ray,Normal,GI,2,No
+3875,414,2025-06-11,Neurology,Dr. Gomez,Urinalysis,Missing,Infectious,12,Yes
+2768,415,2025-05-29,Cardiology,Dr. Lee,Throat Culture,Normal,Neuro,14,Yes
+4574,416,2025-06-23,Neurology,Dr. Smith,Chest X-ray,Normal,GI,11,Yes
+4842,417,2025-07-19,Infectious Disease,Dr. Smith,MRI Brain,Normal,GI,2,No
+1198,418,2025-06-15,Cardiology,Dr. Smith,MRI Brain,Abnormal,Neuro,3,No
+3210,419,2025-07-13,Infectious Disease,Dr. Smith,MRI Brain,Abnormal,Infectious,1,No
+2904,420,2025-06-11,Cardiology,Dr. Lee,Urinalysis,Missing,Infectious,15,No
+2713,421,2025-06-06,Pulmonology,Dr. Gomez,CBC,Normal,Infectious,11,No
+3637,422,2025-06-10,Infectious Disease,Dr. Lee,MRI Brain,Normal,Respiratory,15,No
+3413,423,2025-05-13,Neurology,Dr. Patel,Chest X-ray,Abnormal,Respiratory,16,No
+2270,424,2025-08-07,Pulmonology,Dr. Gomez,Chest X-ray,Normal,GI,5,No
+2052,425,2025-06-06,Cardiology,Dr. Lee,Throat Culture,Abnormal,GI,16,No
+2924,426,2025-07-26,Neurology,Dr. Lee,CBC,Abnormal,Neuro,13,No
+2017,427,2025-07-09,Pulmonology,Dr. Patel,Urinalysis,Abnormal,Cardiac,9,Yes
+4262,428,2025-06-29,Infectious Disease,Dr. Smith,CBC,Normal,Neuro,6,No
+1303,429,2025-07-19,Gastroenterology,Dr. Lee,CRP,Normal,Cardiac,7,No
+1148,430,2025-05-04,Infectious Disease,Dr. Lee,MRI Brain,Abnormal,Infectious,4,No
+4729,431,2025-06-07,Neurology,Dr. Patel,CRP,Normal,GI,12,No
+4367,432,2025-07-26,Cardiology,Dr. Patel,Urinalysis,Normal,GI,15,No
+1982,433,2025-06-16,Neurology,Dr. Patel,CBC,Normal,Infectious,7,No
+2362,434,2025-05-15,Pulmonology,Dr. Patel,Chest X-ray,Normal,Cardiac,10,No
+2503,435,2025-05-20,Gastroenterology,Dr. Patel,Chest X-ray,Normal,Neuro,15,No
+3135,436,2025-06-20,Infectious Disease,Dr. Gomez,Throat Culture,Normal,GI,8,Yes
+3574,437,2025-06-07,Cardiology,Dr. Gomez,CBC,Normal,Neuro,9,No
+4600,438,2025-06-27,Pulmonology,Dr. Lee,Chest X-ray,Normal,Infectious,5,No
+2169,439,2025-07-27,Neurology,Dr. Lee,Throat Culture,Normal,Respiratory,12,Yes
+1135,440,2025-07-09,Pulmonology,Dr. Gomez,MRI Brain,Normal,Cardiac,10,No
+3365,441,2025-07-28,Cardiology,Dr. Lee,CRP,Abnormal,Infectious,15,No
+3375,442,2025-05-12,Infectious Disease,Dr. Gomez,MRI Brain,Normal,Neuro,12,No
+2266,443,2025-05-27,Pulmonology,Dr. Lee,CRP,Normal,GI,8,Yes
+3083,444,2025-06-04,Gastroenterology,Dr. Patel,Urinalysis,Normal,Neuro,8,No
+2392,445,2025-07-20,Neurology,Dr. Smith,Urinalysis,Normal,Infectious,11,No
+3496,446,2025-06-11,Neurology,Dr. Lee,Chest X-ray,Missing,Respiratory,12,Yes
+3453,447,2025-07-23,Infectious Disease,Dr. Smith,Throat Culture,Normal,Respiratory,5,Yes
+2885,448,2025-06-04,Neurology,Dr. Patel,MRI Brain,Abnormal,GI,13,Yes
+2182,449,2025-07-03,Infectious Disease,Dr. Gomez,Urinalysis,Normal,GI,10,No
+2097,450,2025-07-14,Neurology,Dr. Gomez,MRI Brain,Normal,Infectious,8,No
+1697,451,2025-07-08,Pulmonology,Dr. Smith,Chest X-ray,Abnormal,GI,9,No
+2581,452,2025-07-07,Neurology,Dr. Lee,Throat Culture,Normal,Respiratory,7,No
+2976,453,2025-05-05,Neurology,Dr. Lee,CRP,Missing,Infectious,8,Yes
+1880,454,2025-05-08,Cardiology,Dr. Gomez,Throat Culture,Normal,GI,5,Yes
+1137,455,2025-06-28,Gastroenterology,Dr. Lee,CBC,Abnormal,Cardiac,7,Yes
+1641,456,2025-05-03,Pulmonology,Dr. Smith,Urinalysis,Abnormal,Respiratory,12,Yes
+3964,457,2025-06-09,Neurology,Dr. Gomez,Urinalysis,Abnormal,Cardiac,1,No
+3064,458,2025-06-26,Gastroenterology,Dr. Patel,MRI Brain,Abnormal,Neuro,12,No
+1655,459,2025-07-14,Pulmonology,Dr. Smith,Chest X-ray,Normal,Neuro,13,Yes
+1494,460,2025-07-12,Pulmonology,Dr. Lee,Chest X-ray,Normal,Infectious,10,No
+4690,461,2025-08-02,Cardiology,Dr. Lee,Chest X-ray,Abnormal,Respiratory,14,Yes
+4290,462,2025-05-05,Infectious Disease,Dr. Smith,CBC,Normal,Infectious,2,Yes
+3681,463,2025-05-01,Pulmonology,Dr. Gomez,Throat Culture,Abnormal,GI,1,Yes
+2059,464,2025-06-22,Gastroenterology,Dr. Smith,MRI Brain,Normal,Respiratory,5,Yes
+4010,465,2025-07-27,Cardiology,Dr. Lee,MRI Brain,Normal,GI,9,No
+2043,466,2025-05-21,Cardiology,Dr. Lee,Urinalysis,Normal,Neuro,16,No
+2093,467,2025-08-02,Pulmonology,Dr. Lee,CBC,Missing,Cardiac,6,No
+4917,468,2025-06-01,Gastroenterology,Dr. Smith,CBC,Normal,Infectious,15,No
+4650,469,2025-06-19,Gastroenterology,Dr. Gomez,Chest X-ray,Abnormal,Respiratory,6,No
+2504,470,2025-05-23,Pulmonology,Dr. Patel,Throat Culture,Abnormal,Infectious,6,No
+2768,471,2025-05-31,Neurology,Dr. Patel,CBC,Normal,Respiratory,13,Yes
+4878,472,2025-07-04,Gastroenterology,Dr. Patel,Throat Culture,Abnormal,Respiratory,11,No
+2055,473,2025-06-04,Cardiology,Dr. Smith,MRI Brain,Abnormal,GI,1,Yes
+4595,474,2025-07-24,Infectious Disease,Dr. Smith,MRI Brain,Normal,Cardiac,6,Yes
+2750,475,2025-07-19,Pulmonology,Dr. Patel,MRI Brain,Normal,Infectious,9,Yes
+3879,476,2025-05-21,Pulmonology,Dr. Gomez,CRP,Missing,Cardiac,2,No
+1960,477,2025-05-18,Cardiology,Dr. Lee,Chest X-ray,Normal,Infectious,8,Yes
+2045,478,2025-05-11,Pulmonology,Dr. Patel,CBC,Normal,Respiratory,11,Yes
+2791,479,2025-05-01,Neurology,Dr. Smith,Chest X-ray,Abnormal,Cardiac,15,Yes
+4627,480,2025-05-01,Infectious Disease,Dr. Patel,CBC,Missing,Respiratory,1,Yes
+3049,481,2025-08-07,Pulmonology,Dr. Smith,CRP,Normal,Infectious,6,Yes
+4726,482,2025-06-05,Neurology,Dr. Lee,CRP,Normal,Respiratory,16,No
+2618,483,2025-05-29,Cardiology,Dr. Lee,CRP,Abnormal,Respiratory,7,No
+4511,484,2025-06-11,Cardiology,Dr. Smith,Urinalysis,Normal,Infectious,16,No
+1163,485,2025-06-05,Neurology,Dr. Gomez,Throat Culture,Normal,Infectious,6,No
+1138,486,2025-07-25,Gastroenterology,Dr. Lee,Urinalysis,Normal,Cardiac,13,No
+2762,487,2025-06-15,Cardiology,Dr. Lee,CRP,Missing,Respiratory,2,Yes
+1634,488,2025-07-28,Neurology,Dr. Smith,CBC,Abnormal,GI,7,No
+4761,489,2025-06-30,Neurology,Dr. Lee,CRP,Missing,GI,16,Yes
+4078,490,2025-07-26,Cardiology,Dr. Smith,Throat Culture,Abnormal,Neuro,13,Yes
+2290,491,2025-07-27,Pulmonology,Dr. Smith,Urinalysis,Normal,Neuro,13,No
+4246,492,2025-08-01,Infectious Disease,Dr. Gomez,Throat Culture,Abnormal,Respiratory,7,No
+1825,493,2025-05-12,Pulmonology,Dr. Smith,CRP,Normal,Neuro,17,No
+4994,494,2025-05-12,Cardiology,Dr. Patel,Chest X-ray,Abnormal,Cardiac,11,No
+3677,495,2025-05-23,Cardiology,Dr. Lee,Urinalysis,Abnormal,Respiratory,4,No
+1878,496,2025-05-29,Pulmonology,Dr. Smith,Urinalysis,Abnormal,Respiratory,11,Yes
+2934,497,2025-06-06,Pulmonology,Dr. Smith,Chest X-ray,Normal,Respiratory,3,No
+1519,498,2025-07-06,Cardiology,Dr. Patel,CRP,Abnormal,Cardiac,8,No
+1319,499,2025-08-02,Neurology,Dr. Patel,Urinalysis,Normal,Infectious,5,No
+3269,500,2025-06-24,Gastroenterology,Dr. Smith,Urinalysis,Abnormal,Neuro,6,No
+1926,501,2025-06-12,Infectious Disease,Dr. Lee,Urinalysis,Abnormal,GI,1,Yes
+1106,502,2025-05-09,Neurology,Dr. Lee,CBC,Normal,Respiratory,7,Yes
+4245,503,2025-06-08,Pulmonology,Dr. Patel,MRI Brain,Abnormal,Cardiac,16,Yes
+2880,504,2025-07-30,Infectious Disease,Dr. Patel,CRP,Abnormal,Cardiac,9,Yes
+4116,505,2025-05-18,Gastroenterology,Dr. Gomez,Chest X-ray,Missing,Neuro,1,Yes
+3760,506,2025-05-17,Cardiology,Dr. Smith,MRI Brain,Normal,Respiratory,17,No
+4000,507,2025-07-11,Infectious Disease,Dr. Gomez,Chest X-ray,Normal,Infectious,11,No
+4960,508,2025-06-26,Infectious Disease,Dr. Smith,Chest X-ray,Normal,Neuro,11,Yes
+2241,509,2025-05-05,Infectious Disease,Dr. Smith,CRP,Normal,GI,15,Yes
+1543,510,2025-06-16,Infectious Disease,Dr. Lee,CBC,Normal,GI,15,No
+2833,511,2025-07-07,Infectious Disease,Dr. Lee,Urinalysis,Abnormal,Neuro,1,No
+1874,512,2025-07-27,Gastroenterology,Dr. Patel,Chest X-ray,Missing,Respiratory,12,No
+1088,513,2025-06-16,Pulmonology,Dr. Patel,CBC,Abnormal,GI,4,Yes
+4662,514,2025-05-29,Neurology,Dr. Smith,MRI Brain,Abnormal,Infectious,14,Yes
+3617,515,2025-06-14,Infectious Disease,Dr. Lee,Throat Culture,Abnormal,GI,14,No
+4043,516,2025-06-06,Pulmonology,Dr. Patel,MRI Brain,Abnormal,Infectious,6,Yes
+1335,517,2025-06-01,Gastroenterology,Dr. Gomez,Chest X-ray,Normal,Infectious,3,No
+2546,518,2025-06-18,Gastroenterology,Dr. Patel,Urinalysis,Abnormal,Infectious,5,Yes
+4489,519,2025-06-10,Gastroenterology,Dr. Gomez,Chest X-ray,Normal,Cardiac,10,No
+4146,520,2025-05-22,Neurology,Dr. Smith,Urinalysis,Normal,Cardiac,2,No
+4711,521,2025-06-29,Gastroenterology,Dr. Lee,CBC,Abnormal,Respiratory,1,No
+3282,522,2025-07-04,Cardiology,Dr. Smith,Urinalysis,Abnormal,Neuro,8,Yes
+3352,523,2025-05-29,Infectious Disease,Dr. Patel,CRP,Abnormal,Infectious,7,No
+1475,524,2025-05-08,Gastroenterology,Dr. Lee,MRI Brain,Abnormal,Respiratory,17,Yes
+2836,525,2025-06-13,Cardiology,Dr. Gomez,CBC,Abnormal,GI,16,No
+1049,526,2025-07-30,Neurology,Dr. Gomez,MRI Brain,Normal,Respiratory,5,No
+2053,527,2025-05-06,Neurology,Dr. Gomez,Chest X-ray,Abnormal,Respiratory,1,No
+2823,528,2025-07-16,Cardiology,Dr. Patel,Chest X-ray,Abnormal,Cardiac,14,No
+4080,529,2025-07-05,Neurology,Dr. Smith,Throat Culture,Abnormal,Neuro,3,No
+2278,530,2025-07-25,Neurology,Dr. Lee,CBC,Normal,Cardiac,12,No
+2003,531,2025-07-29,Cardiology,Dr. Gomez,Urinalysis,Normal,Infectious,5,No
+2648,532,2025-06-22,Infectious Disease,Dr. Smith,CRP,Normal,Cardiac,4,No
+4833,533,2025-07-29,Neurology,Dr. Gomez,Urinalysis,Normal,Cardiac,9,No
+2480,534,2025-05-22,Pulmonology,Dr. Gomez,Throat Culture,Normal,Neuro,9,Yes
+2623,535,2025-06-07,Gastroenterology,Dr. Gomez,Throat Culture,Normal,Neuro,2,No
+4327,536,2025-05-26,Neurology,Dr. Gomez,Throat Culture,Normal,Infectious,11,Yes
+2316,537,2025-07-08,Pulmonology,Dr. Patel,CRP,Normal,Cardiac,16,Yes
+1436,538,2025-05-30,Pulmonology,Dr. Patel,CRP,Normal,Infectious,3,No
+4646,539,2025-05-23,Gastroenterology,Dr. Lee,CRP,Normal,GI,9,No
+2424,540,2025-06-02,Pulmonology,Dr. Lee,Throat Culture,Missing,Cardiac,17,No
+4973,541,2025-07-03,Pulmonology,Dr. Gomez,CBC,Abnormal,Infectious,10,No
+4807,542,2025-07-26,Infectious Disease,Dr. Patel,Throat Culture,Normal,Respiratory,3,Yes
+2834,543,2025-08-07,Infectious Disease,Dr. Patel,CRP,Normal,Neuro,7,Yes
+2996,544,2025-05-11,Cardiology,Dr. Gomez,Chest X-ray,Normal,Cardiac,4,Yes
+2004,545,2025-07-17,Neurology,Dr. Smith,MRI Brain,Normal,Neuro,8,No
+1851,546,2025-06-05,Neurology,Dr. Patel,Chest X-ray,Normal,Neuro,4,No
+4011,547,2025-06-03,Neurology,Dr. Gomez,Chest X-ray,Normal,Cardiac,3,Yes
+2356,548,2025-06-08,Infectious Disease,Dr. Patel,Throat Culture,Normal,Neuro,6,No
+1230,549,2025-07-20,Gastroenterology,Dr. Patel,CBC,Normal,Neuro,5,No
+4121,550,2025-07-08,Neurology,Dr. Patel,Chest X-ray,Normal,GI,12,No
+4645,551,2025-05-24,Gastroenterology,Dr. Gomez,MRI Brain,Abnormal,Cardiac,4,Yes
+3545,552,2025-05-01,Pulmonology,Dr. Lee,Chest X-ray,Abnormal,Infectious,12,No
+2484,553,2025-07-22,Cardiology,Dr. Patel,MRI Brain,Normal,GI,9,No
+2461,554,2025-07-13,Cardiology,Dr. Patel,MRI Brain,Abnormal,Neuro,16,Yes
+1418,555,2025-05-07,Pulmonology,Dr. Smith,MRI Brain,Normal,Respiratory,14,Yes
+3672,556,2025-05-18,Neurology,Dr. Smith,CRP,Normal,Neuro,16,Yes
+1709,557,2025-05-03,Pulmonology,Dr. Lee,Throat Culture,Abnormal,Cardiac,13,No
+3128,558,2025-05-15,Gastroenterology,Dr. Lee,CRP,Missing,Neuro,2,No
+3723,559,2025-06-16,Gastroenterology,Dr. Smith,Chest X-ray,Normal,Cardiac,6,Yes
+2860,560,2025-07-06,Pulmonology,Dr. Gomez,Chest X-ray,Normal,Respiratory,17,Yes
+3586,561,2025-06-01,Neurology,Dr. Gomez,Chest X-ray,Normal,GI,14,Yes
+3477,562,2025-05-09,Pulmonology,Dr. Smith,Urinalysis,Abnormal,Cardiac,13,Yes
+3833,563,2025-07-17,Neurology,Dr. Gomez,Urinalysis,Normal,GI,15,No
+2843,564,2025-08-01,Neurology,Dr. Smith,MRI Brain,Abnormal,Neuro,8,Yes
+3472,565,2025-06-11,Neurology,Dr. Lee,MRI Brain,Normal,Neuro,6,Yes
+4157,566,2025-05-27,Infectious Disease,Dr. Gomez,CBC,Normal,GI,4,No
+1708,567,2025-05-19,Cardiology,Dr. Smith,Throat Culture,Normal,Cardiac,3,Yes
+4794,568,2025-07-24,Neurology,Dr. Gomez,MRI Brain,Normal,GI,7,Yes
+2249,569,2025-05-24,Neurology,Dr. Gomez,MRI Brain,Normal,GI,17,No
+4587,570,2025-06-25,Gastroenterology,Dr. Gomez,Chest X-ray,Normal,GI,6,No
+1703,571,2025-05-29,Cardiology,Dr. Gomez,MRI Brain,Normal,Respiratory,11,Yes
+4406,572,2025-08-01,Infectious Disease,Dr. Patel,MRI Brain,Normal,GI,11,No
+1771,573,2025-07-19,Cardiology,Dr. Smith,CBC,Abnormal,Infectious,11,No
+4633,574,2025-06-15,Cardiology,Dr. Gomez,Urinalysis,Abnormal,Infectious,11,Yes
+1646,575,2025-08-06,Neurology,Dr. Gomez,CBC,Abnormal,Cardiac,17,No
+1086,576,2025-07-04,Cardiology,Dr. Smith,CBC,Normal,GI,4,Yes
+2501,577,2025-05-02,Gastroenterology,Dr. Patel,Chest X-ray,Normal,Infectious,9,No
+4511,578,2025-05-25,Cardiology,Dr. Smith,MRI Brain,Abnormal,GI,17,Yes
+2735,579,2025-06-28,Pulmonology,Dr. Gomez,Throat Culture,Abnormal,Neuro,2,No
+4393,580,2025-06-06,Cardiology,Dr. Patel,Throat Culture,Abnormal,Neuro,7,No
+1589,581,2025-06-12,Infectious Disease,Dr. Gomez,Chest X-ray,Abnormal,Cardiac,17,Yes
+2973,582,2025-06-17,Neurology,Dr. Patel,CBC,Missing,Cardiac,14,Yes
+3899,583,2025-07-26,Gastroenterology,Dr. Smith,MRI Brain,Normal,Neuro,12,No
+3150,584,2025-06-13,Gastroenterology,Dr. Smith,CRP,Normal,Cardiac,2,No
+4268,585,2025-05-02,Infectious Disease,Dr. Gomez,CBC,Normal,GI,10,Yes
+3105,586,2025-07-24,Infectious Disease,Dr. Gomez,Urinalysis,Normal,Infectious,3,No
+3256,587,2025-07-12,Infectious Disease,Dr. Smith,Urinalysis,Normal,GI,16,No
+2060,588,2025-07-27,Pulmonology,Dr. Gomez,MRI Brain,Abnormal,Respiratory,1,No
+4147,589,2025-06-16,Infectious Disease,Dr. Smith,CBC,Abnormal,Neuro,4,Yes
+1211,590,2025-06-21,Pulmonology,Dr. Patel,CBC,Normal,GI,9,No
+2736,591,2025-05-28,Infectious Disease,Dr. Lee,CRP,Missing,Neuro,12,No
+2855,592,2025-06-05,Pulmonology,Dr. Patel,MRI Brain,Abnormal,Neuro,1,Yes
+1866,593,2025-07-18,Gastroenterology,Dr. Lee,CRP,Normal,Respiratory,7,Yes
+2532,594,2025-05-23,Gastroenterology,Dr. Lee,Throat Culture,Normal,Infectious,4,No
+2359,595,2025-07-29,Cardiology,Dr. Gomez,MRI Brain,Normal,Cardiac,7,Yes
+3492,596,2025-07-01,Cardiology,Dr. Lee,Urinalysis,Abnormal,Neuro,15,No
+2640,597,2025-06-25,Neurology,Dr. Gomez,Urinalysis,Abnormal,Neuro,4,Yes
+4994,598,2025-05-26,Neurology,Dr. Patel,CBC,Abnormal,Infectious,3,Yes
+3179,599,2025-05-31,Infectious Disease,Dr. Gomez,CRP,Normal,Cardiac,11,No
+1509,600,2025-07-16,Pulmonology,Dr. Gomez,Throat Culture,Abnormal,Infectious,4,Yes

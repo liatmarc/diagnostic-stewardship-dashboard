@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pediatric Diagnostic Stewardship – Dashboard</title>
+  <link rel="icon" href="https://www.medstarhealth.org/-/media/project/mho/medstar/logos/medstar-health-logo.png">
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --fg: #0f172a;
+      --muted: #475569;
+      --card: #ffffff;
+      --accent: #1d4ed8;
+    }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .container { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }
+    header img { height: 46px; }
+    h1 { font-size: 1.6rem; margin: 6px 0 0; }
+    .subtitle { color: var(--muted); margin: 0; }
+    .card { background: var(--card); border-radius: 16px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); padding: 16px; }
+    .grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
+    @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+    figure { margin: 0; }
+    figcaption { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+    .downloads a { display: inline-block; margin-right: 12px; margin-bottom: 8px; text-decoration: none; color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+    th, td { border-bottom: 1px solid #e2e8f0; padding: 8px; text-align: left; }
+    th { background: #f1f5f9; }
+    .footer { color: var(--muted); font-size: 0.9rem; margin-top: 16px; }
+    .badge { padding: 2px 8px; border-radius: 9999px; background: #e2e8f0; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://www.medstarhealth.org/-/media/project/mho/medstar/logos/medstar-health-logo.png" alt="Logo" />
+      <div>
+        <h1>Pediatric Diagnostic Stewardship</h1>
+        <p class="subtitle">Automated monthly analysis of low-value diagnostic tests (simulated data)</p>
+      </div>
+    </header>
+
+    <div class="card" style="margin-bottom:16px;">
+      <div style="display:flex; gap:16px; flex-wrap:wrap; align-items:center;">
+        <div><span class="badge">Run:</span> 2025-08-08T16:29:10</div>
+        <div><span class="badge">Rows:</span> 600</div>
+        <div><span class="badge">Months:</span> 2025-05, 2025-06, 2025-07, 2025-08</div>
+        <div><span class="badge">Overall Non-actionable:</span> 35.2%</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <figure>
+          <img src="dept_classification_stacked.png" alt="Department Classification" style="width:100%; border-radius:12px;">
+          <figcaption>Distribution of test classifications by department (percent of all tests).</figcaption>
+        </figure>
+      </div>
+      <div class="card">
+        <figure>
+          <img src="monthly_non_actionable_rate.png" alt="Monthly Non-actionable Rate" style="width:100%; border-radius:12px;">
+          <figcaption>Monthly non-actionable diagnostic test rate.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <h2 style="margin-top:0;">Download Data</h2>
+      <div class="downloads">
+        <a href="diagnostic_tests_raw.csv" download>diagnostic_tests_raw.csv</a>
+        <a href="diagnostic_tests_processed.csv" download>diagnostic_tests_processed.csv</a>
+        <a href="summary_by_department.csv" download>summary_by_department.csv</a>
+        <a href="monthly_non_actionable_rate.csv" download>monthly_non_actionable_rate.csv</a>
+        <a href="data_quality_report.csv" download>data_quality_report.csv</a>
+        <a href="pipeline_log.csv" download>pipeline_log.csv</a>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px;">
+      <h2 style="margin-top:0;">Latest Data Quality Snapshot</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Run Timestamp</th>
+            <th>Rows Processed</th>
+            <th>Missing Patient IDs</th>
+            <th>Missing Results</th>
+            <th>Test Ordered but No Result</th>
+          </tr>
+        </thead>
+        <tbody id="dq-body"></tbody>
+      </table>
+    </div>
+
+    <p class="footer">This dashboard uses simulated data and static PNG charts generated with matplotlib. Replace CSVs/PNGs with your production pipeline outputs to keep the dashboard current.</p>
+  </div>
+
+  <script>
+    // Render the latest data quality record from CSV using basic fetch (works on GitHub Pages)
+    async function loadDQ() {
+      try {
+        const res = await fetch('data_quality_report.csv');
+        const text = await res.text();
+        const lines = text.trim().split('\n');
+        if (lines.length < 2) return;
+        const headers = lines[0].split(',');
+        const last = lines[lines.length - 1].split(',');
+        const tbody = document.getElementById('dq-body');
+        const tr = document.createElement('tr');
+        last.forEach(cell => {
+          const td = document.createElement('td');
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      } catch (e) {
+        console.error('Failed to load DQ report', e);
+      }
+    }
+    loadDQ();
+  </script>
+</body>
+</html>

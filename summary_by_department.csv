@@ -1,0 +1,21 @@
+department,classification,count,percent
+Cardiology,Actionable,56,41.2
+Cardiology,Incomplete,10,7.4
+Cardiology,Non-actionable,43,31.6
+Cardiology,Review,27,19.9
+Gastroenterology,Actionable,36,32.4
+Gastroenterology,Incomplete,16,14.4
+Gastroenterology,Non-actionable,36,32.4
+Gastroenterology,Review,23,20.7
+Infectious Disease,Actionable,42,37.8
+Infectious Disease,Incomplete,9,8.1
+Infectious Disease,Non-actionable,42,37.8
+Infectious Disease,Review,18,16.2
+Neurology,Actionable,43,37.1
+Neurology,Incomplete,12,10.3
+Neurology,Non-actionable,45,38.8
+Neurology,Review,16,13.8
+Pulmonology,Actionable,50,39.7
+Pulmonology,Incomplete,15,11.9
+Pulmonology,Non-actionable,45,35.7
+Pulmonology,Review,16,12.7
